@@ -11,7 +11,7 @@
 ```PHP
 $filePath = '/path/to/file';
 
-$download = FileDownload::initWithFile($filePath);
+$download = sharapeco\HTTP\FileDownload::initWithFile($filePath);
 $download->download('download-filename');
 ```
 
@@ -20,7 +20,7 @@ $download->download('download-filename');
 ```PHP
 $content = 'This is the content of the file';
 
-$download = FileDownload::initWithContent($content);
+$download = sharapeco\HTTP\FileDownload::initWithContent($content);
 $download->download('download-filename');
 ```
 
@@ -29,6 +29,6 @@ $download->download('download-filename');
 ```PHP
 $filePath = '/path/to/pdf';
 
-$download = FileDownload::initWithFile($filePath);
+$download = sharapeco\HTTP\FileDownload::initWithFile($filePath);
 $download->showPDF('filename.pdf');
 ```
