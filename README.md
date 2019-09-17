@@ -2,7 +2,7 @@
 
 - Make downloads from file
 - Make downloads from content
-- IE 9+, Safari 5+, Android 4.4+, Chrome, Firefox, Edge support
+- IE 9+ (ja), Safari 5+ (ja), Android 4.4+, Chrome, Firefox, Edge support
 
 ## Usage
 
